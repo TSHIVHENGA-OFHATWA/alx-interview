@@ -1,18 +1,13 @@
-Operations
-Description
-This project focuses on solving the "Minimum Operations" problem, where you need to determine the minimum number of operations required to get exactly n "H" characters in a text editor, starting with a single "H". The editor supports only two operations:
+# Minimum Operations
 
-Copy All: Copies all characters present in the file.
-Paste: Pastes the copied characters.
-The goal is to calculate the fewest number of operations needed to result in exactly n "H" characters in the file.
+## Description
+This project is about calculating the minimum number of operations needed to achieve exactly `n` "H" characters in a text editor starting with just one "H". You can only use two operations:
 
-If it is impossible to achieve exactly n characters, the function should return 0.
+1. **Copy All**: Copy all the characters in the file.
+2. **Paste**: Paste the previously copied characters.
 
-Prototype
-python
-Copy code
-def minOperations(n)
-Parameters:
-n (int): The target number of "H" characters.
-Returns:
-An integer: The fewest number of operations needed to reach exactly n "H" characters. If n is impossible to achieve, return 0.
+The objective is to determine the fewest number of operations to reach exactly `n` characters.
+
+## Files
+- `0-main.py`: Main test file.
+- `0-minoperations.py`: Contains the `minOperations` function.
