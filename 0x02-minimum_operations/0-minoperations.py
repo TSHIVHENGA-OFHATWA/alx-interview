@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines the function minOperations that calculates 
+This module defines the function minOperations that calculates
 the minimum number of operations needed to result in exactly
 n H characters in the file
 """
