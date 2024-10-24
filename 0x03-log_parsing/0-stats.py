@@ -24,8 +24,8 @@ def display_stats(total_size, status_counts):
 accumulated_size = 0
 current_code = 0
 line_counter = 0
-status_code_count = {200: 0, 301: 0, 400: 0, 401: 0,
-                     403: 0, 404: 0, 405: 0, 500: 0}
+status_code_count = {"200": 0, "301": 0, "400": 0, "401": 0,
+                     "403": 0, "404": 0, "405": 0, "500": 0}
 
 try:
     for log_entry in sys.stdin:
