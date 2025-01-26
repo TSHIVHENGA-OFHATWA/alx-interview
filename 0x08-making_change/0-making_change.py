@@ -1,4 +1,12 @@
 #!/usr/bin/python3
+"""
+Module: 0-making_change
+This module provides a function to determine the minimum number of coins needed 
+to meet a given total using coins of specified denominations.
+
+The algorithm ensures an optimal solution by leveraging a greedy approach 
+and considers edge cases such as when the total is zero or negative.
+"""
 def makeChange(coins, total):
     """
     Determines the fewest number of coins needed to meet a given total.
